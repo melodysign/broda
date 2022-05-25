@@ -1,2 +1,2 @@
 # BRODA
-A simple browser supporting data
+Simple browser supporting data
