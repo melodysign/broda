@@ -72,7 +72,7 @@ class BrowserTabWidget(QTabWidget):
     def _titleChanged(self, title):
         index = self._indexOfPage(self.sender())
         if (index >= 0):
-            self.setTabText(index, BookmarkWidget.short_title(title))
+            self.setTabText(index, BookmarkWidget.shortTitle(title))
 
     def _iconChanged(self, icon):
         index = self._indexOfPage(self.sender())
@@ -97,7 +97,7 @@ class BrowserTabWidget(QTabWidget):
         if index >= 0 and index < len(self._webengineviews):
             view = self._webengineviews[index]
             for web_action in WebEngineView.webActions():
-                enabled = view.is_web_action_enabled(web_action)
+                enabled = view.isWebActionEnabled(web_action)
                 self._checkEmitEnabledChanged(web_action, enabled)
 
     def back(self):

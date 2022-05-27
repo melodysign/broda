@@ -4694,3 +4694,9 @@ env/Scripts/pyside6-qmllint.exe
 env/Scripts/pyside6-qmltyperegistrar.exe
 env/Scripts/pyside6-rcc.exe
 env/Scripts/pyside6-uic.exe
+__pycache__/bookmarkwidget.cpython-310.pyc
+__pycache__/browsertabwidget.cpython-310.pyc
+__pycache__/downloadwidget.cpython-310.pyc
+__pycache__/findtoolbar.cpython-310.pyc
+__pycache__/historywindow.cpython-310.pyc
+__pycache__/webengineview.cpython-310.pyc

@@ -82,8 +82,8 @@ class MainWindow(QMainWindow):
         self._updateBookmarks()
 
     def _updateBookmarks(self):
-        self._bookmark_widget.populate_tool_bar(self._bookmarksToolBar)
-        self._bookmark_widget.populate_other(self._bookmark_menu, 3)
+        self._bookmark_widget.populateToolbar(self._bookmarksToolBar)
+        self._bookmark_widget.populateOther(self._bookmark_menu, 3)
 
     def _createMenu(self):
         file_menu = self.menuBar().addMenu("&File")
@@ -336,7 +336,7 @@ class MainWindow(QMainWindow):
         self._find_tool_bar.focusFind()
 
     def writeBookmarks(self):
-        self._bookmark_widget.write_bookmarks()
+        self._bookmark_widget.writeBookmarks()
 
 
 if __name__ == '__main__':
